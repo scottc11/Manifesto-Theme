@@ -6,7 +6,7 @@
 
 
 <!-- STARTING THE LOOP -->
-<?php query_posts('showposts=5'); ?>  <!-- LIMITING THE NUMBER OF POSTS TO BE DISPLAYED -->
+<?php query_posts('showposts=10'); ?>  <!-- LIMITING THE NUMBER OF POSTS TO BE DISPLAYED -->
 <?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
 
@@ -45,7 +45,7 @@
 							<div class="latest-post-header-container">
 								<h3 class="post-date post-header">
 									<time datetime="<?php the_time('Y-m-d'); ?> <?php the_time('H:i'); ?>">
-										<?php the_date(); ?> <?php the_time(); ?>
+										<?php the_date(); ?>
 									</time>
 								</h3>
 							</div>
@@ -95,11 +95,11 @@
 								<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
 							</h1>
 
-							<h3 class="post-date sub-post-date-header">
+							<h4 class="post-date sub-post-date-header">
 								<time datetime="<?php the_time('Y-m-d'); ?> <?php the_time('H:i'); ?>">
-									<?php the_date(); ?> <?php the_time(); ?>
+									<?php the_date(); ?>
 								</time>
-							</h3>
+							</h4>
 						</div>
 					</div>
 

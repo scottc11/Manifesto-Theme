@@ -340,6 +340,12 @@ p {
   padding: 0 10px 0 10px;
 }
 
+.post-title {
+  max-width: 100%;
+  max-height: 50%;
+  font-size: calc(4vmin);
+}
+
 /*---- other posts ----*/
 .post-image-shell {
   background-color: transparent;
