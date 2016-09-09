@@ -1,0 +1,566 @@
+/*
+ * Theme Name: Manifesto Theme
+ * Theme URI:
+ * Description: Manifesto Theme
+ * Version: 1.5.0
+ * Author: Scott Campbell
+ * Author URI:
+ * Tags: Blank, HTML5, CSS3
+ *
+ * License:
+ * License URI:
+*/
+
+/*INSERT CSS REFERENCES HERE*/
+
+/*
+
+Colors
+Pink #fef1f1
+Yellow #fbfcca
+Purple #e2e2f4
+Text/headings #272727
+
+Fonts
+Eczar
+https://fonts.google.com/specimen/Eczar?category=Serif
+Headings/titles: Bold
+
+Open Sans
+https://fonts.google.com/specimen/Open+Sans?category=Serif&selection.family=Open+Sans&query=open+sans
+Paragraph text: Regular
+
+Web Address
+https://floralmanifesto.com/
+https://floralmanifesto.com/wp-admin
+
+Instagram
+https://www.instagram.com/floral.manifesto
+
+Video
+https://www.youtube.com/watch?v=WAu-vTt7kw4
+
+Log on details for Wordpress blog
+username: celkin@me.com
+password: neasden123
+Site: floralmanifesto
+
+*/
+
+
+
+
+
+body {
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Eczar', serif;
+  font-weight: bold;
+  color: #272727;
+}
+
+h2 {
+  font-family: 'Eczar', serif;
+  font-weight: bold;
+  color: #272727;
+}
+
+h3 {
+  font-family: 'Eczar', serif;
+  font-weight: bold;
+  color: #272727;
+}
+
+h4 {
+  font-family: 'Eczar', serif;
+  font-weight: bold;
+  color: #272727;
+}
+
+h5 {
+  font-family: 'Eczar', serif;
+  font-weight: bold;
+  color: #272727;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*--------------------------------------*/
+/*        GLOBAL CLASSES                */
+/*--------------------------------------*/
+
+.margin-top-bottom {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+/*--------------------------------------*/
+/*        HEADER                        */
+/*--------------------------------------*/
+
+.header-background {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-container {
+  box-sizing: border-box;
+  height: auto;
+  text-align: center;
+  padding: 100px 10px 10px 10px;
+
+}
+
+.logo-container {
+  text-align: center;
+}
+
+
+.logo-container img {
+  width: 80%;
+  height: auto;
+  padding: 10px 0 10px 0;
+}
+
+.slogan-container {
+  margin-bottom: 20px;
+}
+
+.slogan-container img {
+  width: 100%;
+  height: auto;
+  padding: 10px 0 10px 0;
+}
+
+.stitch-divider-header img {
+  width: 100%;
+  height: auto;
+  padding: 10px 0 10px 0;
+}
+
+/*--------------------------------------*/
+/*        HEADER NAVIGATION             */
+/*--------------------------------------*/
+.header-nav ul {
+  font-family: 'Eczar', serif;
+  font-weight: bold;
+  color: black;
+  font-size: 1.2em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-nav ul a {
+  color: black;
+  text-decoration: none;
+}
+
+.header-nav ul li {
+  display: inline-block;
+  margin: 0 20px 0 20px;
+}
+
+.header-nav ul li img {
+  width: 15px;
+  height: auto;
+  padding: 0 20px 0 20px;
+}
+
+.stitch-star {
+  width: 15px;
+  height: auto;
+  padding: 0 20px 0 20px;
+}
+
+/*--------------------------------------*/
+/*        BASIC TEMPLATE PAGE           */
+/*--------------------------------------*/
+
+.basic-template-content {
+  min-height: 600px;
+}
+
+/*--------------------------------------*/
+/*        SINGLE POST PAGE              */
+/*--------------------------------------*/
+
+#single > p a img {
+  image-orientation: centering-div;
+}
+
+/*--------------------------------------*/
+/*        SIDEBARS AND WIDGETS          */
+/*--------------------------------------*/
+
+.sidebar-widget div ul {
+
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-widget div ul li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+}
+
+.sidebar-widget div ul li a {
+  background-color: #fef1f1;
+  color: black;
+}
+
+.search-input {
+  width: 80%;
+  border: none;
+  background-color: #fef1f1;
+  padding: 5px;
+}
+
+.widget_archive ul li {
+  display: inline-block;
+}
+
+.widget_categories ul li {
+  display: inline-block;
+}
+
+
+
+/*---------------------------------------------*/
+/*   STITCH DIVIDERS AND HOME-PAGE HEADINGS    */
+/*---------------------------------------------*/
+
+.stitch-divider img {
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.heading-stitch-divider {
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px 0 20px 0;
+  text-align: center;
+}
+
+.stitch-heading {
+  display: inline-block;
+  background-color: white;
+  padding: 0 40px 0 40px;
+}
+
+
+
+
+/*--------------------------------------*/
+/*        HOME PAGE ARTICLES            */
+/*--------------------------------------*/
+
+.articles-container {
+  text-align: center;
+}
+
+.article-preview-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.article {
+  height: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#latest-post {
+  box-sizing: border-box;
+  color: white;
+  position: relative;
+  text-align: left;
+  overflow: hidden;
+}
+
+#latest-post-background {
+  position: absolute;
+  z-index: 1;  /*so the background stays behind headers*/
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+/*for the latest/main post*/
+#post-header-shell {
+  position: relative;
+  margin: 20px;
+  z-index: 2;
+}
+
+#latest-post-header-container {
+  margin: 10px 0 10px 0;
+}
+
+.post-background {
+  position: absolute;
+  z-index: 1;  /*so the background stays behind headers*/
+  box-sizing: border-box;
+  width: 100%;
+  height: 50%;
+}
+
+.post-background-img {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.post-header {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  margin: 0;
+  text-align: left;
+  padding: 0 10px 0 10px;
+}
+
+/*---- other posts ----*/
+.post-image-shell {
+  background-color: transparent;
+  width: 100%;
+  height: 50%;
+}
+
+.sub-post-header-container {
+  background-color: #fef1f1;
+  position: relative;
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  z-index: 2;
+}
+
+.sub-post-header-shell {
+  background-color: transparent;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.sub-post-header {
+  text-decoration: underline;
+  margin: 0 0 10px 0;
+  padding: 0 10px 0 10px;
+}
+
+.sub-post-date-header {
+  margin: 10px 0 10px 0;
+}
+
+
+
+/*--------------------------------------*/
+/*        SUB ARTICLES                  */
+/*--------------------------------------*/
+
+.sub-article {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#boss-ladies {
+  background-image: url('../img/boss_ladies_image.jpg');
+}
+
+#reading-list {
+  background-image: url('../img/reading_list_image.jpg');
+}
+
+.sub-article-header {
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+
+
+
+/*--------------------------------------*/
+/*        READING LIST PAGE             */
+/*--------------------------------------*/
+
+
+.book-container {
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.book-image-container img {
+  max-width: 100%;
+}
+
+
+/*--------------------------------------*/
+/*        BOSS LADIES PAGE              */
+/*--------------------------------------*/
+
+.boss-lady-container {
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.boss-lady-image-container img {
+  max-width: 100%;
+}
+
+.boss-lady-spacer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.boss-lady-spacer h4 {
+  margin: 0;
+}
+
+.boss-lady-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*--------------------------------------*/
+/*        VIDEO                         */
+/*--------------------------------------*/
+
+.video-container {
+  height: 360px;  /*This will need to change for each screen*/
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.video-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.centering-div {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.video-info-container {
+  background-color: #fef1f1;
+  display: inline-block;
+  height: 360px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.small-stitch {
+  padding: 20px;
+}
+
+.small-stitch img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.padder {
+  padding: 20px;
+}
+
+.padder img {
+  max-width: 100%;
+}
+
+
+/*--------------------------------------*/
+/*        INSTAGRAM                     */
+/*--------------------------------------*/
+
+.instagram-module {
+  margin-bottom: 30px;
+}
+
+/*--------------------------------------*/
+/*        FOOTER                        */
+/*--------------------------------------*/
+
+.footer-background {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-container {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-logo-container {
+  text-align: center;
+}
+
+.footer-banner {
+  min-height: 109px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#star {
+  height: 100%;
+}
+
+.footer-slogan {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-slogan img {
+  max-width: 100%;
+}
+
+.footer-disclaimer {
+  padding: 30px 0 100px 0;
+}
+
+.footer-disclaimer img {
+  max-width: 100%;
+}

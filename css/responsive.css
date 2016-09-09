@@ -1,0 +1,50 @@
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  .basic-template-content {
+    min-height: 0;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+  .article {
+    height: 300px;
+  }
+
+  .heading-stitch-divider {
+    /*background: none;*/
+  }
+
+  .basic-template-content {
+    min-height: 0;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+/* Custom, specific for footer */
+@media only screen and (max-width : 628px) {
+  .footer-banner:nth-child(odd) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width : 400px) {
+
+}

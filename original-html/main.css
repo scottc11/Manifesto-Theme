@@ -1,0 +1,311 @@
+/*
+
+Colors
+Pink #fef1f1
+Yellow #fbfcca
+Purple #e2e2f4
+Text/headings #272727
+
+Fonts
+Eczar
+https://fonts.google.com/specimen/Eczar?category=Serif
+Headings/titles: Bold
+
+Open Sans
+https://fonts.google.com/specimen/Open+Sans?category=Serif&selection.family=Open+Sans&query=open+sans
+Paragraph text: Regular
+
+Web Address
+https://floralmanifesto.com/
+https://floralmanifesto.com/wp-admin
+
+Instagram
+https://www.instagram.com/floral.manifesto
+
+Video
+https://www.youtube.com/watch?v=WAu-vTt7kw4
+
+Log on details for Wordpress blog
+username: celkin@me.com
+password: neasden123
+Site: floralmanifesto
+
+*/
+
+
+
+
+
+
+
+body {
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Eczar', serif;
+  font-weight: bold;
+  color: #272727;
+}
+
+h3 {
+  font-family: 'Eczar', serif;
+  font-weight: bold;
+  color: #272727;
+}
+
+.header-background {
+  background-image: url(../img/top_banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-container {
+  box-sizing: border-box;
+  height: auto;
+  text-align: center;
+  padding: 100px 10px 10px 10px;
+
+}
+
+.logo-container {
+  text-align: center;
+}
+
+
+.logo-container img {
+  width: 80%;
+  height: auto;
+  padding: 10px 0 10px 0;
+}
+
+.slogan-container {
+  margin-bottom: 20px;
+}
+
+.slogan-container img {
+  width: 100%;
+  height: auto;
+  padding: 10px 0 10px 0;
+}
+
+.stitch-divider-header img {
+  width: 100%;
+  height: auto;
+  padding: 10px 0 10px 0;
+}
+
+/***** NAV *****/
+.header-nav ul {
+  font-family: 'Eczar', serif;
+  font-weight: bold;
+  color: black;
+  font-size: 1.2em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-nav ul a {
+  color: black;
+  text-decoration: none;
+}
+
+.header-nav ul li { display: inline-block; }
+
+.stitch-star {
+  width: 15px;
+  height: auto;
+  padding: 0 20px 0 20px;
+}
+
+
+
+
+/******** ARTCILES *********/
+/***************************/
+
+.articles-container {
+  height: auto;
+}
+
+.stitch-divider img {
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.heading-stitch-divider {
+  background-image: url(../img/blank_header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px 0 20px 0;
+  text-align: center;
+}
+
+.stitch-heading {
+  display: inline-block;
+  background-color: white;
+  padding: 0 40px 0 40px;
+}
+
+
+
+
+
+
+/********* SUB-ARTICLES ********/
+/*******************************/
+
+.sub-article {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#boss-ladies {
+  background-image: url('../img/boss_ladies_image.jpg');
+}
+
+#reading-list {
+  background-image: url('../img/reading_list_image.jpg');
+}
+
+
+
+
+.sub-article-header {
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+
+
+
+
+
+/********** VIDEO **********/
+/***************************/
+
+.video-container {
+  height: 360px;  /*This will need to change for each screen*/
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.video-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.centering-div {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.video-info-container {
+  background-color: #fef1f1;
+  display: inline-block;
+  height: 360px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.small-stitch {
+  padding: 20px;
+}
+
+.small-stitch img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.padder {
+  padding: 20px;
+}
+
+.padder img {
+  max-width: 100%;
+}
+
+
+
+
+
+/****** INSTAGRAM *******/
+/***************************/
+
+.instagram-module {
+  margin-bottom: 30px;
+}
+
+
+
+
+/****** FOOTER *******/
+/***************************/
+
+.footer-background {
+  background-image: url('../img/bottom_banner.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-container {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-logo-container {
+  text-align: center;
+}
+
+.footer-banner {
+  min-height: 109px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#star {
+  height: 100%;
+}
+
+.footer-slogan {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-slogan img {
+  max-width: 100%;
+}
+
+.footer-disclaimer {
+  padding: 30px 0 100px 0;
+}
+
+.footer-disclaimer img {
+  max-width: 100%;
+}
