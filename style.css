@@ -94,6 +94,16 @@ p {
 /*        GLOBAL CLASSES                */
 /*--------------------------------------*/
 
+#pagination {
+  text-align: center;
+}
+
+.vertical-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .margin-top-bottom {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -202,6 +212,29 @@ p {
 #single > p a img {
   image-orientation: centering-div;
 }
+
+/*--------------------------------------*/
+/*        MAIN BLOG PAGE                */
+/*--------------------------------------*/
+
+
+.hr-post-divider hr {
+  border-width: 2px;
+  margin: 20px 0 20px 0;
+}
+
+.post-summary {
+  margin-top: 20px;
+}
+
+.post-summary-excerpt {
+
+}
+
+.post-summary-img a img {
+  width: 100%;
+}
+
 
 /*--------------------------------------*/
 /*        SIDEBARS AND WIDGETS          */

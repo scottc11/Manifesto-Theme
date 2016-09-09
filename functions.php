@@ -81,6 +81,14 @@ function FM_filter_custom_fields($fieldName) {
   }
 }
 
+// changing the default excerpt length from 55 to
+// what ever this function returns.
+function custom_excerpt_length( $length ) {
+	return 125;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
+
 
 // PHP to Console Debugger function
 function debug_to_console( $data ) {
