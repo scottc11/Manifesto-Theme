@@ -13,7 +13,7 @@ Template Name: Blog Page
     <section class="col-xs-12 col-sm-8">
       <?php get_template_part('blog-loop'); ?>
 
-      
+      <?php get_template_part('pagination'); ?>
     </section>
 
 

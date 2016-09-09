@@ -1,7 +1,11 @@
 
 
 <!-- STARTING THE LOOP -->
-<?php if (have_posts()): while (have_posts()) : the_post(); ?>
+<?php
+	$temp = $wp_query; $wp_query= null;
+	$wp_query = new WP_Query(); $wp_query->query('showposts=5' . '&paged='.$paged);
+
+ 	if ($wp_query->have_posts()): while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 
 
 	<!-- article -->
