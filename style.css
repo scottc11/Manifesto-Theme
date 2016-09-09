@@ -109,6 +109,10 @@ p {
   margin-bottom: 40px;
 }
 
+.margin-top-20 {
+  margin-top: 20px;
+}
+
 .margin-bottom-20 {
   margin-bottom: 20px;
 }
@@ -304,6 +308,14 @@ p {
 /*--------------------------------------*/
 /*        HOME PAGE ARTICLES            */
 /*--------------------------------------*/
+
+#more-articles-button {
+  font-size: 20px;
+  display: inline-block;
+  padding: 5px 20px 5px 20px;
+  background-color: #fef1f1;
+  border-radius: 10px;
+}
 
 .articles-container {
   text-align: center;

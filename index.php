@@ -27,7 +27,9 @@ Template Name: Home Page
 
 						<?php get_template_part('homepage-loop'); ?>
 
-						<a href="#">More Articles</a>
+						<div class="col-xs-12">
+							<a id="more-articles-button" href="http://localhost:8888/Floral-Manifesto-wp/blog/">More Articles</a>
+						</div>
 
 					</section>
 					<!-- /section -->
@@ -48,7 +50,7 @@ Template Name: Home Page
 
 
 
-	              <div class="row">
+	              <div class="margin-top-20 row">
 
 	                <div class="col-xs-12 col-md-6">
 										<a href="http://localhost:8888/Floral-Manifesto-wp/boss-ladies/">
