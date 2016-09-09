@@ -6,7 +6,7 @@
 
 
 <!-- STARTING THE LOOP -->
-<?php query_posts('showposts=10'); ?>  <!-- LIMITING THE NUMBER OF POSTS TO BE DISPLAYED -->
+<?php query_posts('showposts=5'); ?>  <!-- LIMITING THE NUMBER OF POSTS TO BE DISPLAYED -->
 <?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
 
