@@ -27,6 +27,7 @@
 		<!-- <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/blog_posts.css"> -->
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/animations.css">
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/responsive.css">
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/contact.css">
 
 		<?php wp_head(); ?>
 
