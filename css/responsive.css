@@ -40,7 +40,7 @@
 
 /* Custom, specific for footer */
 @media only screen and (max-width : 628px) {
-  .footer-banner:nth-child(odd) {
+  .footer-cross-stitch {
     display: none;
   }
 }

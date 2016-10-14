@@ -8,10 +8,15 @@
 						<div class="row">
 							<div class="footer-logo-container col-xs-12">
 
+								<nav class="header-nav margin-bottom-20 margin-top-20 col-xs-12" role="navigation">
+									<?php html5blank_nav(); ?>
+								</nav>
+								<!-- /nav -->
+
 								<div class="footer-banner">
-									<img src="<?php echo get_template_directory_uri(); ?>/img/cross_stitch_line.png" alt="" />
+									<img class="footer-cross-stitch" src="<?php echo get_template_directory_uri(); ?>/img/cross_stitch_line.png" alt="" />
 									<img id="star" src="<?php echo get_template_directory_uri(); ?>/img/cross_stitch_star.png" alt="" />
-									<img src="<?php echo get_template_directory_uri(); ?>/img/cross_stitch_line.png" alt="" />
+									<img class="footer-cross-stitch" src="<?php echo get_template_directory_uri(); ?>/img/cross_stitch_line.png" alt="" />
 								</div>
 
 								<div class="footer-slogan">

@@ -46,7 +46,9 @@
 					<div class="row">
 
 						<div class="logo-container col-xs-12 col-md-8 col-md-offset-2">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Floral Manifesto" />
+							<a href="<?php echo home_url(); ?>">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Floral Manifesto" />
+							</a>
 						</div>
 
 						<div class="slogan-container col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-3">
