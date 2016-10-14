@@ -28,7 +28,7 @@ Template Name: Home Page
 						<?php get_template_part('homepage-loop'); ?>
 
 						<div class="col-xs-12">
-							<a id="more-articles-button" href="http://localhost:8888/Floral-Manifesto-wp/blog/">More Articles</a>
+							<a id="more-articles-button" href="https://floralmanifesto.com/blog/">More Articles</a>
 						</div>
 
 					</section>
@@ -53,7 +53,7 @@ Template Name: Home Page
 	              <div class="margin-top-20 row">
 
 	                <div class="col-xs-12 col-md-6">
-										<a href="http://localhost:8888/Floral-Manifesto-wp/boss-ladies/">
+										<a href="https://floralmanifesto.com/boss-ladies/">
 		                  <div id="boss-ladies" class="sub-article" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/boss_ladies_image.jpg');">
 		                    <div class="sub-article-header">
 		                      <img src="<?php echo get_template_directory_uri(); ?>/img/boss_ladies.png" alt="Boss Ladies" />
@@ -64,7 +64,7 @@ Template Name: Home Page
 
 	                <!-- READING LIST -->
 	                <div class="col-xs-12 col-md-6">
-	                  <a href="http://localhost:8888/Floral-Manifesto-wp/reading-list-2/">
+	                  <a href="https://floralmanifesto.com/reading-list-2/">
 	                    <div id="reading-list" class="sub-article" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/reading_list_image.jpg');">
 	                      <div class="sub-article-header">
 	                        <img src="<?php echo get_template_directory_uri(); ?>/img/reading_list.png" alt="Reading List" />

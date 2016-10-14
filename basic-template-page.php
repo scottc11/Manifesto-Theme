@@ -20,7 +20,7 @@ Template Name: Basic Template
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
 
-        <!-- PLACE ALL CONTENT HERE -->
+        <!-- PLACE ALL CONTENT HERE ... -->
 
         <div class="row">
 
