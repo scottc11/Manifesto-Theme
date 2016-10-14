@@ -214,7 +214,7 @@ p {
 /*--------------------------------------*/
 
 #single > p a img {
-  image-orientation: centering-div;
+
 }
 
 /*--------------------------------------*/
@@ -614,4 +614,40 @@ p {
 
 .footer-disclaimer img {
   max-width: 100%;
+}
+
+
+
+/*--------------------------------------    */
+/*   WORDPRESS BLOG EDITOR CLASSES          */
+/*  100% needed as these classes are added  */
+/*  by the author                           */
+/*--------------------------------------    */
+
+
+
+.alignright {
+float: right;
+}
+
+.alignleft {
+float: left;
+}
+
+img.aligncenter {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+img.alignright {
+padding: 4px;
+margin: 0 0 2px 7px;
+display: inline;
+}
+
+img.alignleft {
+padding: 4px;
+margin: 0 7px 2px 0;
+display: inline;
 }

@@ -81,6 +81,7 @@ function FM_filter_custom_fields($fieldName) {
   }
 }
 
+
 // changing the default excerpt length from 55 to
 // what ever this function returns.
 function custom_excerpt_length( $length ) {
