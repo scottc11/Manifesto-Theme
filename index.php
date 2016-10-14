@@ -136,6 +136,43 @@ Template Name: Home Page
 
 	              </div>
 
+								<!-- VIDEO 2  -->
+								<div class="row">
+
+	                  <div class="video-info-container col-xs-4 col-lg-3 col-lg-offset-1">
+
+	                    <div class="centering-div">
+
+	                      <div class="small-stitch">
+	                        <img src="<?php echo get_template_directory_uri(); ?>/img/cross_stitch_line.png" alt="" />
+	                      </div>
+
+	                      <div class="padder">
+	                        <a href="http://raconteurs.ca/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/raconteurs-logo.png" alt="" /></a>
+	                      </div>
+
+	                      <div class="padder">
+	                        <img src="<?php echo get_template_directory_uri(); ?>/img/teens.png" alt="TEENS" />
+	                      </div>
+
+	                      <p>
+	                        See more videos<br>at <a href="http://raconteurs.ca/" target="_blank">Raconteurs Storytelling</a>
+	                      </p>
+
+	                      <div class="small-stitch">
+	                        <img src="<?php echo get_template_directory_uri(); ?>/img/cross_stitch_line.png" alt="" />
+	                      </div>
+	                    </div>
+
+	                  </div>
+
+										<div class="video-container col-xs-8 col-lg-7">
+	                    <!-- YOUTUBE EMBEDED CODE -->
+	                    <iframe width="640" height="360" src="https://www.youtube.com/embed/IZyW_X4CjhY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+	                  </div>
+
+	              </div>
+
 	            </div>
 	          </div>
 	        </section>
