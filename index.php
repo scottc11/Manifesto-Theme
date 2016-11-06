@@ -54,9 +54,9 @@ Template Name: Home Page
 
 	                <div class="col-xs-12 col-md-6">
 										<a href="https://floralmanifesto.com/boss-ladies/">
-		                  <div id="boss-ladies" class="sub-article" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/boss_ladies_image.jpg');">
+		                  <div id="boss-ladies" class="sub-article" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/bossy_list_image.png');">
 		                    <div class="sub-article-header">
-		                      <img src="<?php echo get_template_directory_uri(); ?>/img/boss_ladies.png" alt="Boss Ladies" />
+		                      <img src="<?php echo get_template_directory_uri(); ?>/img/bossy_list_text.png" alt="Boss Ladies" />
 		                    </div>
 		                  </div>
 										</a>
