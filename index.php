@@ -53,7 +53,7 @@ Template Name: Home Page
 	              <div class="margin-top-20 row">
 
 	                <div class="col-xs-12 col-md-6">
-										<a href="https://floralmanifesto.com/boss-ladies/">
+										<a href="https://floralmanifesto.com/bossy-list/">
 		                  <div id="boss-ladies" class="sub-article" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/bossy_list_image.png');">
 		                    <div class="sub-article-header">
 		                      <img src="<?php echo get_template_directory_uri(); ?>/img/bossy_list_text.png" alt="Boss Ladies" />
