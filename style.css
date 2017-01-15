@@ -49,6 +49,7 @@ https://www.youtube.com/watch?v=WAu-vTt7kw4
 body {
   background-color: white;
   font-family: 'Lora', serif;
+  font-size: 14px;
 }
 
 h1 {
@@ -79,10 +80,6 @@ h5 {
   font-family: 'Eczar', serif;
   font-weight: bold;
   color: #272727;
-}
-
-p {
-  font-family: 'Lora', serif;
 }
 
 /*--------------------------------------*/
