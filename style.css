@@ -26,8 +26,8 @@ Eczar
 https://fonts.google.com/specimen/Eczar?category=Serif
 Headings/titles: Bold
 
-Open Sans
-https://fonts.google.com/specimen/Open+Sans?category=Serif&selection.family=Open+Sans&query=open+sans
+Lora
+<link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
 Paragraph text: Regular
 
 Web Address
@@ -40,11 +40,6 @@ https://www.instagram.com/floral.manifesto
 Video
 https://www.youtube.com/watch?v=WAu-vTt7kw4
 
-Log on details for Wordpress blog
-username: celkin@me.com
-password: neasden123
-Site: floralmanifesto
-
 */
 
 
@@ -53,7 +48,7 @@ Site: floralmanifesto
 
 body {
   background-color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lora', serif;
 }
 
 h1 {
@@ -87,7 +82,7 @@ h5 {
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lora', serif;
 }
 
 /*--------------------------------------*/

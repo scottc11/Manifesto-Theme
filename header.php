@@ -18,7 +18,7 @@
 
 		<!-- Link all  External Fonts here -->
 		<link href="https://fonts.googleapis.com/css?family=Eczar" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
 
 		<!-- linking the main style.css -->
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
